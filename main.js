@@ -1,4 +1,4 @@
- var gameBall= document. getElementsByClassName("ball");
+ var gameBall= document. querySelector(".ball");
 var ballx=0;
 var bally=100;
 
