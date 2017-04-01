@@ -1,7 +1,8 @@
- var gameBall= document. querySelector(".ball");
+window.onload=function() {
+var gameBall= document. querySelector(".ball");
 var ballx=0;
 var bally=100;
-
+}
        function right(){
          document.body.style.backgroundColor = "red";
        }
