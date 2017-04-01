@@ -1,4 +1,6 @@
  var gameBall= document. getElementsByClassName("ball");
+var ballx=0;
+var bally=100;
 
        function right(){
          document.body.style.backgroundColor = "red";
@@ -12,4 +14,6 @@
          }
          function down(){
          document.body.style.backgroundColor = "blue";
+          bally=bally+100;
+          gameBall.style.top=bally;
          }
