@@ -1,10 +1,4 @@
-window.onload = function() {
-//   init();
-  var up = document.getElementById("up");
-  var down = document.getElementById("down");
-  var right = document.getElementById("right");
-  var left = document.getElementById("left");
-  var gameBall= document. getElementsByClassName("ball");
+ var gameBall= document. getElementsByClassName("ball");
 
        function right(){
          document.body.style.backgroundColor = "red";
@@ -19,4 +13,3 @@ window.onload = function() {
          function down(){
          document.body.style.backgroundColor = "blue";
          }
-};
